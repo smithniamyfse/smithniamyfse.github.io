@@ -1,51 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Amy N. Smith Resume</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@600&Urbanist:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div>
+  <header>
     <h1>Amy N. Smith</h1>
-    <p> Self-motivated, creative indivdiual with a passion for bridging people and technology.
-  </div>
-  
-  <div class="exp-header">
-    <h3>Professional Experience</h3>
-  </div>
-  
-  <div>
-    <h4>Prime Digital Academy</h4>
-    <h5>Head of Campus Development, Lead Instructor</h5>
-    <h6>Dec 2018 - Current | Oct 2014 - Oct 2017</h6>
-    
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
-  
-    <div>
-    <h4>Prime Digital Academy</h4>
-    <h5>Head of Campus Development, Lead Instructor</h5>
-    <h6>Dec 2018 - Current | Oct 2014 - Oct 2017</h6>
-    
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
+    <p class="header-">Highly motivated and tech-savvy licensed educator with a successful record in teaching strategies and lesson design. Experienced in managing both small and large groups. Capable of navigating changing environments with poise and competence.</p>
+  </header>
 
-   <div class="exp-header">
-    <h3>Education</h3>
+  <div class="flex-container">
+    <div class="box-backdrop-title" onclick="myFunction()">
+      <h2 class="rotate-a">Summary<i class="material-icons">&#xe313;</i></h2>
+    </div>
+    
+    <div id="boxbackdrop" style="display:none;">
+      <h2>Summary</h2>
+      <div class="backdrop-contact">
+        <h3>Contact</h3>
+        <ul>
+        <i class="material-icons">&#xe325;</i>
+          612-346-0300
+        </ul>
+        <ul>
+        <i class="material-icons">&#xe0be;</i>
+          smithniamy@gmail.com
+        </ul>
+        <ul>
+         <i class="material-icons">&#xe88a;</i>
+          4725 Nicollet Avenue South
+          <br>Minneapolis, MN 55419</br>
+        </ul>
+      </div>
+      
+      <div class="backdrop-education">
+        <h3>Education</h3>
+        <p class="year">2014</p>
+        <h4>Master of Art Education</h4>
+        <p class="school">Virginia Commonwealth University</p>
+        
+        <p class="year">2011</p>
+        <h4>Bachelor of Social Work</h4>
+        <h4>Bachelor of Fine Arts</h4>
+        <p class="school">Winona State University</p>
+      </div>
+      
+      <div class="backdrop-skills">
+        <h3>Skills</h3>
+          <ul>
+            <li>Microsoft Office Suite</li>
+            <li>Google Workplace</li>
+            <li>Adobe Creative Suite</li>
+            <li>HTML & CSS</li>
+            <li>eLearning</li>
+            <li>Social Media Applications</li>
+          </ul>
+      </div>
+    </div>
+    
+    <div class="box-workhistory-title" onclick="myFunction2()">
+      <h2 class="rotate-a">Work<i class="material-icons">&#xe313;</i></h2>
+    </div>
+    <div id="boxworkhistory">
+      <h2>Work Experience</h2>
+      <div class="workhistory-teacher1">
+        <h3>Art Teacher</h3>
+        <h4>Lakes International Language Academy</h4>
+        <p class="yearexperience">2020-2022</p>
+          <ul class="b">
+            <li>Created and implemented various practical digital tools to ensure the attendance and engagement of full-time online and in-person students.</li>
+            <li>Researched and developed engaging International Baccalaureate (IB) - focused lesson plans for the subjects of Design and Visual Arts.</li>
+            <li>Applied data from various assessment methods to define student learning outcomes and inform future instruction.</li>
+            <li>Through small group instruction and designing individualized activities, differentiated curricula were facilitated based on the respective needs of a student. </li>
+          </ul>
+      </div>
+      
+      <div class="workhistory-teacher2">
+        <h3>Art Teacher</h3>
+        <h4>St. Francis Elementary</h4>
+        <p class="yearexperience">2019-2020</p>
+          <ul class="b">
+            <li>Established a distinctive art curriculum based on the school culture.</li>
+              <ul class="c"><li>This inclusive education concentrated on collaborative art, celebrating contemporary artists from diverse backgrounds, and employing technology to teach animation, editing, and design skills.</li></ul>
+            <li>Worked daily with multiple departments and internal resources to develop effective plans and strategies for each student.</li>
+          </ul>
+       </div>
+      
+       <div class="workhistory-teacher3">
+        <h3>Art Teacher</h3>
+        <h4>Kellogg Middle School</h4>
+        <p class="yearexperience">2017-2018</p>
+          <ul class="b">
+            <li>Designed and taught a specialized class that blended Social and Emotional Learning (SEL) principles with the arts.</li>
+            <li>Participated in the School Climate and Culture team and the Check In-Check Out team to help build and maintain a positive school climate.</li>
+            <li>Facilitated constructive, visual culture critiques and empowered students to counteract these representations through creative, pedagogical assignments to develop their media literacy.</li>
+          </ul>
+       </div>
+      
+       <div class="workhistory-service1">
+        <h3>Clinical Administrative Coordinator</h3>
+        <h4>UnitedHealth Group</h4>
+        <p class="yearexperience">2011-2013</p>
+          <ul class="b">
+            <li>Used internal software for managing, monitoring, and distributing client caseloads to registered nurses.
+            </li>
+            <li>Produced print and digital training materials to enhance employee job skills and achieve team goals.</li>
+            <li>Addressed customer service inquiries in a timely and accurate fashion.</li>
+            <li>Extensive use of Microsoft Word, PowerPoint, Excel, and Outlook programs.</li>
+          </ul>
+       </div>
+      
+    </div>
   </div>
   
-  <div>
-    <h5>Bachelor of Science - Video Game Design and Development</h5>
-    <h6>Brown College, Minneapolis, MN - Completed 2011</h6> 
+  <footer>
+    <a href="https://www.smithniamy.com/s/AMYNI_SMITH_Resume_2023.pdf" target="_blank"><i class="material-icons">&#xe89e;&nbsp;</i>Please view my resume</a>&nbsp;<small>(PDF, 128 KB)</small>
+  </footer>
+  
 </body>
 </html>
