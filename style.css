@@ -1,7 +1,7 @@
 body {
   background-color: #171526;
   color: #F2D7B6;
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Urbanist', Arial, sans-serif;
   margin: 5% 5%;
 }
 
@@ -12,7 +12,7 @@ header {
   background-size: 100% 80%;
   font-family: 'Phudu', cursive;
   text-align: center;
-  color: #A66A5D;
+  color: #B7857B;
   padding: 1%;
 }
 
@@ -24,33 +24,33 @@ font-size: 1.5em;
 }
 
 a:link {
-  font-family: 'Phudu', cursive;
+  font-family: 'Phudu', Trebuchet MS, sans-serif;
   text-align: center;
   color: #F2D7B6;
 }
 
 a:visited {
-  font-family: 'Phudu', cursive;
+  font-family: 'Phudu', Trebuchet MS, sans-serif;
   text-align: center;
-  color: #A66A5D;
+  color: #B7857B;
 }
 
 h2 {
   margin-top: 0;
-  color: #9C707B;
-  font-family: 'Phudu', cursive;
+  color: #AD8A90;
+  font-family: 'Phudu', Trebuchet MS, sans-serif;
 }
 
 h3 {
   margin: 0;
-  color: #A66A5D;
-  font-family: 'Phudu', cursive;
+  color: #B7857B;
+  font-family: 'Phudu', Trebuchet MS, sans-serif;
 }
 
 h4 {
   margin: 0;
   color: #F2D7B6;
-  font-family: 'Phudu', cursive;
+  font-family: 'Phudu', Trebuchet MS, sans-serif;
 }
 
 p {
@@ -58,7 +58,7 @@ p {
 }
 
 small {
-  color: #9C707B;
+  color: #AD8A90;
   font-size: 0.7em;
 }
 
@@ -69,7 +69,7 @@ small {
 }
 
 .flex-container .box-backdrop-title {
-  background-color: #A66A5D;
+  background-color: #B7857B;
   width: 3%;
   padding: 2.5%;
   border-right: 1px solid #F2D7B6;
@@ -87,7 +87,7 @@ small {
 }
 
 .flex-container .box-workhistory-title {
-  background-color: #A66A5D;
+  background-color: #B7857B;
   width: 3%;
   padding: 2.5%;
   border-right: 1px solid #F2D7B6;
@@ -114,12 +114,12 @@ small {
 
 .yearexperience {
   margin: 0;
-  color: #9C707B;
+  color: #AD8A90;
 }
 
 .year {
   margin-bottom: 0;
-  color: #9C707B;
+  color: #AD8A90;
 }
 
 .school {
